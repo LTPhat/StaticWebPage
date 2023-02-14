@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ff748f;
+}
+
+ .valentine{
+    display: flex;
+    width: 60%;
+    height: 90%;
+    border: 6px dashed white;
+    text-align: center;
+    border-radius: 10px;
+    background: #ff8fa3;
+    position: relative;
+    box-shadow: 0 0 100px rgba(0,0,0,.4);
+}
+
+.valentine .rose{
+    position: absolute;
+    display: inline-block;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    top: -5px;
+}
+
+.valentine .cloud{
+    display: flex;
+    position: absolute;
+    right: 100px;
+    top: 20px;
+    flex-wrap: wrap;
+}
+.valentine .cloud2{
+    display: flex;
+    position: absolute;
+    right: 400px;
+    top: 10px;
+    flex-wrap: wrap;
+}
+.valentine .item1{
+    background-color: #ffccd5;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    top: 10px;
+    left: 260px;
+    box-shadow: 20px 20px #ffccd5, 40px 0px #ffccd5, 20px 20px #ffccd5;
+    transform: translateX(-50%);
+}
+
+
+.valentine .grass{
+    display: inline-block;
+    position: absolute;
+    width: 120%;
+    height: 10%;
+    top: 300px;
+    border-radius: 10px;
+    margin-left: -20px;
+    left: -60px;
+}
+
+.text{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-size: 32px;
+    text-align: center;
+    top: 20%;
+    left: 35%;
+    z-index: 2;
+}
+.img-wrap{
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.img-wrap .boy img{
+    width: 300px;
+    height: auto;
+    margin-bottom: -20px;
+}
+
+.img-wrap .earth img{
+    width: 200px;
+    height: auto;
+    margin-left: -20px;
+}
+
+.img-wrap .couple img{
+    width: 300px;
+    height: auto;
+}
+
+.img-wrap .couple{
+    margin-bottom: -80px;
+}
