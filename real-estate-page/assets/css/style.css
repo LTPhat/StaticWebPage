@@ -168,8 +168,14 @@ a {
     justify-content: space-between;
     align-items: center;
     margin-top: 96px;
+    cursor: pointer;
 }
-
+.clients .images .item-client{
+    padding: 20px;
+}
+.clients .images .item-client:hover{
+    border: 3px solid red;
+}
 /* ======== Guide ======== */
 
 .guide{
@@ -568,4 +574,79 @@ a {
     position: absolute;
     bottom: 0;
     right: 221px;
+}
+
+
+/* ========Footer======== */
+
+.footer{
+    margin-top: 105px;
+}
+
+.footer .content{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .row .heading{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.0rem;
+    line-height: 1;
+    color: #1C1C1D;
+    margin-bottom: 42px;
+}
+
+.footer .row .list .item{
+    padding: 9px 0;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1;
+    color: #7A7A7E;
+}
+
+.footer .row .col .item a{
+    text-decoration: none;
+    color: #7A7A7E;
+}   
+
+.footer .row .col .item a:hover{
+    color: red;
+    background-color: #ebebeb;
+}
+.footer .row .col .desc{
+    text-decoration: none;
+    line-height: 2;
+    color: #7A7A7E;
+    width: 257px;
+}
+
+.footer .row .col:nth-child(4) .social{
+    display: flex;
+    gap: 16px;
+    margin-top: 40px;
+}
+.footer .row .col:nth-child(4) .social a:hover{
+    background-color: #ebebeb;
+    box-shadow: 20px #ebebeb;
+}
+.footer .row:nth-child(2){
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 58px;
+    align-items: center;
+}
+
+.footer .row:nth-child(2) .copyright{
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1;
+    color: #C2C2C2;
 }
