@@ -53,7 +53,14 @@ a {
 /* ======== Header ======== */
 
 .fixed-header{
-    height: 100vh;
+    background: var(--header-color);
+    padding-top: 26px;
+    position: sticky;
+    top: -26px;
+    padding-bottom: -26px;
+    z-index: 1;
+}
+.nav-header{
     background: var(--header-color);
     position: relative;
 }
@@ -61,6 +68,7 @@ a {
     display: flex;
     align-items: center;
     padding: 38px 0;
+    background:  var(--header-color);
 }
 
 .navbar ul {
@@ -97,7 +105,11 @@ a {
 
 
 .hero{
-    margin-top: 130px;
+    padding-top: 130px;
+    position: relative;
+    display: flex;
+    background: #e6f0ff;
+    height: calc(100vh - 142px);
 }
 
 .hero .infor{
@@ -134,10 +146,12 @@ a {
 }
 
 .hero .hero-img{
+    height: 250px;
+    width: 450px;
     position: absolute;
     height: auto;
     bottom: 0;
-    right: calc((100vw - 1110px) / 2 - 100px);
+    right: calc((100vw - 1110px) / 2 - 150px);
 }
 
 /* ======== Client ======== */
@@ -174,7 +188,8 @@ a {
     padding: 20px;
 }
 .clients .images .item-client:hover{
-    border: 3px solid red;
+    outline-style: solid;
+    outline-color: red;
 }
 /* ======== Guide ======== */
 
