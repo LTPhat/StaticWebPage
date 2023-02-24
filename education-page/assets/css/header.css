@@ -5,7 +5,9 @@
     box-sizing: border-box;
     padding: 0;
 }
-
+main{
+    background: #FFFCF4;
+}
 html{
     font-size: 62.5%;
 }
@@ -21,6 +23,7 @@ body{
 }
 
 .btn{
+    display: inline-block;
     border-radius: 25px;
     display: inline-block;
     min-width: 118px;
@@ -33,43 +36,44 @@ body{
     background: #171100;
     border-radius: 999px;
 }
-// Header
-.fixed-header .inner a{
-    display: inline-block;
-    background: red;
+
+header{
+    background: #fffcf4;
+    position: sticky;
+    top: -22px;
+    z-index: 1;
 }
 
-.fixed-header .content{
-    background: white;
+.header .content{
     width: 1170px;
     margin-left: auto;
     margin-right: auto;
     max-width: calc(100% - 48px);
 }
 
-.fixed-header .inner{
+.header .inner{
     display: flex;
     padding: 36px 0 8px;
 }
 
-.fixed-header .inner .nav{
+.header .inner .nav{
     margin-left: auto;
 }
 
-.fixed-header .inner .nav ul{
+.header .inner .nav ul{
     display: flex;
 }
 
-.fixed-header .inner .nav ul a{
+.header .inner .nav ul a{
     display: inline-block;
     padding: 12px 24px;
 }
 
-.fixed-header .inner .nav ul .active{
+.header .inner .nav ul .active{
     position: relative;
 }
 
-.fixed-header .inner .nav ul .active:after{
+.header .inner .nav ul .active:after{
     display: block;
     postion: absolute;
     content: "";
@@ -80,14 +84,14 @@ body{
     border-radius: 1px;
 }
 
-.fixed-header .inner .nav ul a:hover{
+.header .inner .nav ul a:hover{
     border-radius: 5px;
     box-shadow: 5px 10px 10px gray;
     font-weight: 700;
     color: #000000;
 }
 
-.fixed-header .action .btn-sign-up{
+.header .action .btn-sign-up{
     display: inline-block;
     color: #FFFFFF;
     border-radius: 24.5;
@@ -95,11 +99,11 @@ body{
     margin-top: -6px;
     margin-left: 54px;
 }
-.fixed-header .action .btn-sign-up:hover{
+.header .action .btn-sign-up:hover{
     background: #FFB900;
     color: #FFFFFF;
 }
-.fix-header .action{
+.header .action{
     margin-left: 49px;
 }
 

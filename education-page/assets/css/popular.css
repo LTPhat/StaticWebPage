@@ -1,0 +1,139 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+}
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: var(2, 1);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.popular{
+    padding: 200px 0px;
+}
+
+.popular .content{
+    background: #FFFFFF;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: calc(100% - 48px);
+}
+
+.popular .container .title{
+    font-weight: 700;
+    font-size: 3.8rem;
+    line-height: 1.26px;
+    letter-spacing: -0.02em;
+    color: #171100;
+}
+.popular .row{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    align-items: center;
+}
+.popular .container .desc{
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #5F5B53;
+    width: 458px;
+}
+
+.popular .container .control{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.popular .container .control-btn:hover{
+    outline:  2px dashed #5F5B53;;
+    border-radius: 5px;
+}
+
+.container .box-container{
+    display: flex;
+    margin-top: 55px;
+    justify-content: space-between;
+}
+
+.container .box-container .box .infor{
+    margin-top: 16px;
+    background: #FFFFFF;
+    box-shadow: 0px 18px 36px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    padding: 22px;
+}
+
+.container .box-container .box .head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .box-container .box .head .rating{
+    display: flex;
+    gap: 6px;
+    margin-bottom: 5px;
+}
+
+.container .box-container .box .head .name{
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #171100;
+}
+
+.container .box-container .box .infor .desc{
+    width: 326px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #5F5B53;
+    margin-top: 6px;
+}
+
+.container .foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 22px;
+}
+
+.container .foot .price{
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #171100;
+}
+
+
+.container .foot .book-btn{
+    background: #FFB900;
+    border-radius: 25px;
+    border: none;
+}
+
+.container .foot .book-btn:hover{
+    background: #000000;
+    cursor: pointer;
+}
