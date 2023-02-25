@@ -93,9 +93,11 @@ body{
 .container .box-container .box .head .rating{
     display: flex;
     gap: 6px;
-    margin-bottom: 5px;
 }
 
+.container .box-container .box .head .rating .value{
+    margin-top: 3px;
+}
 .container .box-container .box .head .name{
     font-weight: 600;
     font-size: 1.8rem;
