@@ -1,0 +1,131 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.features{
+    margin-top: 200px;
+    margin-bottom: 65px;
+}
+
+.features .content{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: calc(100% - 48px);
+}
+
+.features .container{
+    display: flex;
+    /* gap: 130px; */
+    justify-content: space-between;
+}
+
+.features .container .images{
+    display: flex;
+    gap: 30px;
+}
+
+.features .container .images img{
+    width: 270px;
+    height: 404px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.features .container .images .lower{
+    margin-top: 34px;
+}
+
+.features .container .infor{
+    margin-top: 58px;
+    width: 43%;
+}
+.features .container .infor .title{
+    font-weight: 700;
+    font-size: 3.8rem;
+    line-height: 1.26;
+    letter-spacing: -0.02em;
+    color: #171100;
+}
+
+.features .container .infor .desc{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #5F5B53;
+    padding-top: 16px;
+    text-align: justify;
+
+}
+.features .container .infor .desc:nth-of-type(2){
+    margin-bottom: 32px;
+}
+
+.features .container .infor .sign-up-btn{
+    min-width: 137px;
+    min-height: 50px;
+    background: #FFB900;
+    border-radius: 26px;
+    border: none;
+}
+
+.features .container .infor .sign-up-btn:hover{
+    background: #000000;
+}
+
+.features .container-2{
+    margin-top: 135px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.features .container-2 img{
+    width: 470px;
+    height: 440px;
+    border-radius: 20px;
+    object-fit: cover;
+
+}
+
+.features .container-2 .infor{
+    width: 51%;
+}
+
+.features .container-2 .infor .title{
+    text-align: justify;
+}
+
+.features .container-2 .infor .desc{
+    margin-bottom: 32px;
+}
+
+.features .container-2 .infor .join-btn{
+    width: 137px;
+    height: 50px;
+    background: #FFB900;
+    border-radius: 26px;
+    border: none;
+}
+.features .container-2 .infor .join-btn:hover{
+    background: black;
+}
